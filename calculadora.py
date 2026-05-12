@@ -34,7 +34,10 @@ elif operacion == 4:
 
 elif operacion == 5:
     #operación de exponenciación para Fransheska
-    print("Agregar la operación de exponenciación")
+    num1 = int(input("Inserte el número: "))
+    exponente = int(input("Inserte el exponente: "))
+    
+    print("Su resultado es: ", num1 ** exponente)
 
 elif operacion == 6:
     #operación de raíz cuadrada validando que no se puede realizar a negativos, para Laila
