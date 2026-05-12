@@ -37,7 +37,7 @@ elif operacion == 5:
     print("Agregar la operación de exponenciación")
 
 elif operacion == 6:
-    #operación de raíz cuadrada validando que no se puede realizar a negativos, para Laila
+    #operación de raíz cuadrada validando que no se puede realizar a negativos, para Layla
     print("Agregar la operación de exponenciación")
 
 else:
