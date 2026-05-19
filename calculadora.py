@@ -38,7 +38,15 @@ elif operacion == 5:
 
 elif operacion == 6:
     #operación de raíz cuadrada validando que no se puede realizar a negativos, para Layla
-    print("Agregar la operación de exponenciación")
+    try:
+        num = float(input("Ingrese el número para calcular la raíz cuadrada: "))
+        if num < 0:
+            print("Error: no se puede calcular la raíz cuadrada de un número negativo.")
+        else:
+            resultado = math.sqrt(num)
+            print(f"La raíz cuadrada de {num} es {resultado}")
+    except ValueError:
+        print("Entrada no válida. Introduzca un número.")
 
 else:
     print("Opción no válida. Por favor seleccione una operación entre 1 y 6.")
