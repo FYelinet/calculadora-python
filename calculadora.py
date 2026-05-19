@@ -30,7 +30,12 @@ elif operacion == 3:
 
 elif operacion == 4:
     #operación de división validar división cero, para Paula
-    print("Agregar la operación de división")
+    num1=(int(input("Seleccione num1 a dividir")))
+    num2=(int(input("Seleccione num2 a dividir")))
+    if num2 ==0:
+        print("la operacion no es valida")
+    else:
+        print("tu resultado es: ", num1/num2)
 
 elif operacion == 5:
     #operación de exponenciación para Fransheska
