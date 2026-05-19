@@ -23,6 +23,10 @@ if operacion == 1:
 elif operacion == 2:
     #operación de resta para Milena
     print("Agregar la operación de resta")
+    num1 = float(input("Ingrese el primer número: "))
+    num2 = float(input("Ingrese el segundo número: "))
+    resultado = num1 - num2
+    print("El resultado de la resta es:", resultado)
 
 elif operacion == 3:
     #operación de multiplicación para Lucety
