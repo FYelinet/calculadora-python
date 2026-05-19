@@ -27,7 +27,11 @@ elif operacion == 2:
 elif operacion == 3:
     #operación de multiplicación para Lucety
     print("Agregar la operación de multiplicación")
-
+    print("Agregar la operación de multiplicación")
+    num= (int(input("ingrese numero 1:")))
+    num2= (int(input("ingrese numero 2:")))
+    multiplicacion=num*num2
+    print("este es el resultado de la multiplicacion es :", multiplicacion)
 elif operacion == 4:
     #operación de división validar división cero, para Paula
     print("Agregar la operación de división")
